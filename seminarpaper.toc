@@ -5,13 +5,13 @@
 \contentsline {subsection}{\numberline {3.2}Using a Reliability Growth Model to Control Software Inspection}{4}
 \contentsline {subsection}{\numberline {3.3}Integrating Collaborative Processes}{7}
 \contentsline {subsection}{\numberline {3.4}A Family of Experiments to investigate the effects of groupware}{7}
-\contentsline {section}{\numberline {4}Zusammenfassung}{7}
-\contentsline {section}{\numberline {5}Vorlagen}{7}
-\contentsline {subsection}{\numberline {5.1}Tables}{7}
-\contentsline {subsection}{\numberline {5.2}Figures}{7}
-\contentsline {subsection}{\numberline {5.3}Fonts}{8}
-\contentsline {subsection}{\numberline {5.4}Code}{8}
-\contentsline {section}{\numberline {6}Bibliographic Issues}{9}
-\contentsline {subsection}{\numberline {6.1}Literature Search}{9}
-\contentsline {subsection}{\numberline {6.2}BibTeX}{9}
-\contentsline {section}{References}{9}
+\contentsline {section}{\numberline {4}Zusammenfassung}{10}
+\contentsline {section}{\numberline {5}Vorlagen}{10}
+\contentsline {subsection}{\numberline {5.1}Tables}{10}
+\contentsline {subsection}{\numberline {5.2}Figures}{10}
+\contentsline {subsection}{\numberline {5.3}Fonts}{11}
+\contentsline {subsection}{\numberline {5.4}Code}{11}
+\contentsline {section}{\numberline {6}Bibliographic Issues}{11}
+\contentsline {subsection}{\numberline {6.1}Literature Search}{11}
+\contentsline {subsection}{\numberline {6.2}BibTeX}{12}
+\contentsline {section}{References}{12}

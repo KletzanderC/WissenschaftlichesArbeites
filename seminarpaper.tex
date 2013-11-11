@@ -136,6 +136,38 @@ Damit man nun die Effektivität besser aufzeigen kann, erstellen wir drei linear
 
 \subsection{A Family of Experiments to investigate the effects of groupware}
 
+Aufgrund der Vorartikel ist bekannt, dass Softwareinspektion eine Angelegenheit ist die sehr viel Ressourcen und Planung benötigt um die Qualität des zu entstehenden Produkts auf ein zielgerichtetes Maß zu bringen. Viele Bereiche der Softwareinspektion können automatisch ohne einen Menschen durchgeführt werden. In diesem Sinne ist es sinnvoll seine Fähigkeiten in die Bereiche einzubringen in denen man den Mensch benötigt und den anderen Teil von einer Software erledigen zu lassen. In dem Artikel “A Family of Experiments to investigate the effects of groupware” von Stefan Biffl wird der Gruppen unterstützte Inspektionsprozess (GRIP) erklärt und mittels Experimenten unter Studenten getestet, wie sinnvoll der Einsatz solcher Tools im Softwareinspektionsbereich ist. Das Ergebnis dieser Experimente hat gezeigt, dass sich Inspektoren viel weniger oft treffen müssen und trotzdem gute Ergebnisse erzielen. Außerdem können falsch positive Fehler schneller aufgedeckt werden und die Anzahl der richtigen Fehler die innerhalb eines Meetings vergessen wurde, wird verringert, jedoch konnte man nicht die Rate der falsch positiven senken. Dieser Wert ist konstant gleich hoch geblieben.
+\\ \\
+Der Aufbau eines Inspektionsprozesses besteht aus zwei wichtigen Komponenten. Die erste Komponente befasst sich mit der Fehlerfindung. In dieser Komponente sind die einzelnen Inspektoren auf sich alleine gestellt und versuchen so viele Fehler als möglich zu identifizieren. Die zweite Komponente ist das Inspektionsmeeting. In diesem Meeting treffen alle Inspektoren zusammen um ihre Ergebnisse auf den Tisch zu legen und darüber zu diskutieren. Es wurde jedoch mit Experimenten bewiesen, dass die zweite Komponente sehr kostspielig ist und der Erfolg nicht dem entspricht was man sich wünschen würde.
+\\ \\
+In dem Artikel von Stefan Biffl geht es darum einen Gruppen unterstützten Inspektionsprozess zu implementieren, der die beiden Komponenten effizienter machen soll, sowie die Vorteile der Komponenten zu stärken und Schwächen zu mildern. Zu diesem Zweck wurde ein Prozess erstellt der es ermöglichen sollte Gruppen von Inspektoren effizienter in deren Arbeit zu machen.
+\\ \\
+Motivation für die Findung eines besseren Prozesses als die Bestehenden war die, dass viele computergestützte Tools nur für die Programmcode Inspektion gedacht sind. Außerdem haben verschiedenste Tools immer nur einen Inspektionsprozess implementiert, sodass sich die Anzahl der möglichen Einsatztools schnell verringert hat.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{images/3_4_1.png}
+	\caption{Einordnung der gefundenen Fehler}
+	\label{fig:3_4_1_png}
+\end{figure}
+
+Der Gruppen unterstützte Inspektionsprozess von Stefan Biffl inkludiert die Wünsche der Nutzer. Der Prozess beinhaltet eine Planungsphase, verschiedenste Fehlererkunngsmöglichkeiten, unterstützt Inspektionsmeetings, eine Möglichkeit zum Vergleichen von Fehlern und eine Analysemöglichkeit über die Inspektionseffizienz. Damit dieser Prozess funktionieren kann müssen zwei Rollen erläutert werden. Zum einen gibt es einen Inspektionsmanager der den Inspektionsprozess plant und überwacht. Der Inspektionsmanager überwacht sämtliche Meetings und Abläufe der Inspektoren und verbessert - wenn nötig - die einzelnen Bereiche. Die zweite wichtige Rolle beinhaltet den Inspekteur. Dieser muss seine gefundenen Fehler elektronisch vermerken und bekommt automatisiert eine Übersicht über Überschneidungen von Fehlern, sowie eine Möglichkeit in alle Fehler einzublicken.
+\\ \\
+Diese Aufteilung und die Benützung von computergestützten Tools ermöglicht es einen höheren Informationsaustausch zu garantieren. Außerdem schafft man damit eine Möglichkeit sich Einblick in alle gemeldeten Fehler zu verschaffen, was vorher nur über Meetings vereinfacht möglich war. Durch die Virtualisierung von Dokumenten schafft man die Möglichkeit mehrere Dokumente gleichzeitig nach Stichworten zu durchsuchen um effizienteres Suchen zu ermöglichen.
+\\ \\
+Stefan Biffl versucht in seinem Artikel mittels Experimenten herauszufinden, ob diese Vorteile auch wirklich zutreffen oder ob das Arbeiten am Papier noch lange nicht ausgestorben ist. Hierzu werden vier Testkriterien herangezogen. 
+Bei der Effektivität der Fehlerfindung geht es darum herauszufinden ob die Findung von doppelten Fehlern minimiert werden kann über allen Inspektoren. Die Effizienz der einzelnen Inspektoren soll untersucht werden. Außerdem soll festgestellt werden ob die Arbeitszeit der Inspektoren minimiert wird. 
+\\ \\
+Insgesamt wurden drei Experimente durchgeführt, wobei zwei davon mit Papier und Stift, aber unterschiedlichen Lesemethoden, durchgeführt wurden und ein Experiment mit dem neuen Gruppen unterstützten Inspektionsprozess. Das letzte Experiment benutzt die gleiche Lesemethode wie eines der beiden anderen Experimente um später einen besseren Vergleich erreichen zu können. 
+\\ \\
+Die Ergebnisse des Experiments waren einerseits verblüffend und andererseits bestätigend. Zum Beispiel konnte gezeigt werden, dass die Aufdeckungsrate aller Fehler im Projekt, welche mit dem GRIP Prozess gefunden wurden, um einige Prozent schlecht war als die Aufdeckungsrate mit der Papier und Stift Methode, jedoch nicht signifikant unterschiedlich. 
+\\ \\
+Ein Vorteil des GRIP Prozesses gegenüber den bestehenden Methoden liegt darin, dass dieser weniger Zeit in Anspruch nimmt. Es konnte gezeigt werden, dass aufgrund des einfachen Informationaustausches es möglich war die durchschnittliche Arbeitszeit der Inspektoren zu verringern, weil sie Einsicht in alle gemeldeten Fehler hatten und somit schneller einen Überblick gewinnen konnten. Dies führt automatisch dazu, dass die Anzahl der doppelt gemeldeten Fehler signifikant verringert werden konnte. Im Vergleich zu den Papier Experimenten konnte man um die Hälfte weniger Mehrfachmeldungen vermerken. 
+\\ \\
+Eine wesentliche Komponente des Inspektionsprozesses sind die Team Meetings. Wie wir am Anfang festgestellt hatten, verliert man im Team Meeting schnell den Überblick und meldet schnell falsche Fehler als richtige. Im GRIP Prozess konnte gezeigt werden, dass die Computerunterstützung dabei helfen konnte, weniger Fehler zu vergessen bzw. zu verlieren. Aufgrunddessen wurden auch weniger falsche Fehler als positive vermerkt. Dies bedeutet, dass die Effizienz der Gruppenmeetings deutlich gesteigert werden konnte und die Fehlerraten verbessert werden konnten. 
+\\ \\
+Zusammenfassend stellt man fest, dass einige Methodiken auf dem Papier sinnvoller sind als mit einem Tool, jedoch wenn man die Gesamtheit betrachtet es zu vielen Vorteilen kommt, wenn man den Inspektionsprozess mithilfe des richtigen Tools plant und durchführt. Durch den Einsatz von GRIP konnte man zeigen, dass Kosten eingespart werden können und Ressourcen erzeugt werden können. Die exzellente Planbarkeit, sowie Verfolgbarkeit jedes einzelnen Schritts im Tool ermöglicht eine genaue Analyse und eine effizientere Abarbeitung der einzelnen Schritte und Prozesse in der Inspektion.
+
 \section{Zusammenfassung}
 
 % VORLAGEN FÜR DINGE 
