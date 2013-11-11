@@ -11,6 +11,7 @@
 
 \usepackage{ngerman}
 \usepackage[ngerman, english]{babel}
+\usepackage[utf8]{inputenc}
 \usepackage{bibgerm,cite}       % Deutsche Bezeichnungen, Automatisches Zusammenfassen von Literaturstellen
 \usepackage[ngerman]{varioref}  % Querverweise
 
@@ -25,31 +26,23 @@
 \pagestyle{plain}
 \pagenumbering{roman}
 
-\title{Template for Seminar Papers at the Business Informatics Group\footnote{This work has been created in the context of the course ``Introduction to Science'' (188444) in SS11.}}
-
-
-%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-% Name and address of the author
-%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-\author{Max Mustermann}
-
-\institute{Musterweg 12/3/7, 1040 Wien \\ \email{mustermann@tuwien.ac.at} \\ Registration No.: 0748549
-}
+\title{Wissenschaftliches Arbeiten (188.925 - WS2013)}
 
 %&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 % Example for more than one authors
 %&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-%\author{Max Mustermann\inst{1} and Matthias Mustermann\inst{2}}
 
-%\institute{Musterweg 12/3/7, 1040 Wien \\ \email{mustermann@tuwien.ac.at} \\ MatrNr.: 0748549
-%\and
-%Mustergasse 54/4/3, 1030 Wien \\ \email{matthias@tuwien.ac.at} \\ MatrNr.: 0426553
-%}
+\author{Christian Kletzander\inst{1} and Alexander Kögler\inst{2}}
+
+\institute{Weststrasse 23, 2273 Hohenau/March \\ \email{e1125210@student.tuwien.ac.at} \\ MatrNr.: 1125210
+\and
+Am Durchstich 24, 3420 Kritzendorf \\ \email{e1125544@student.tuwien.ac.at} \\ MatrNr.: 1125544
+}
 
 \maketitle
 
 \begin{abstract}
-
+% TODO: Abstract schreiben
 This abstract summarizes the content of this paper in about 70 to 150 words. \dots
 \end{abstract}
 
@@ -63,18 +56,94 @@ This abstract summarizes the content of this paper in about 70 to 150 words. \do
 
 \pagenumbering{arabic}
 
-\section{Introduction}
+% TODO: BIBTEX EINFÜGEN
+\section{Einführung in Software Engineering}
 
-This document is intended as a template and guideline and should support the author in the course of creating a seminar paper. Assessment criteria comprise the quality of the theoretical and/or practical work as well as structure, content and wording of the written seminar paper. Careful attention should be given to the basics of scientific work (e.g., correct citation).
+Die Themenstellung dieser Seminararbeit über Stefan Biffl lautet “Softwareengineering”. Unter Software Engineering versteht man die Planung, die Durchführung, die Organisation, sowie die Wartung eines Software Projekts. 
+\\ \\
+Software Engineering besteht aus mehreren Teilgebieten die zusammen ein Ganzes ergeben. In diesem Kapitel befassen wir uns mit den einzelnen Teilgebieten des Softwareengineering und geben einen Einblick in die verschiedensten Methodiken zur Durchführung eines Software Projekts.
+\\ \\
+In der ersten Phase eines Softwareprojekts geht es darum zu Planen. Aufgrunddessen, dass ein Software Projekt nicht von einer Person durchgeführt wird sondern von einer unbestimmten Anzahl ist es wichtig seine Ressourcen zu kennen. Am Anfang eines Projekts steht also die Zieldefinition mit den Auftraggeber, sowie den Stakeholdern. Es geht darum einen Bezug dafür zu entwickeln was der Wunsch aller Interessenten ist. Eine Anforderungserhebung dient dazu festzustellen was von den Auftraggebern gefordert wird. In dieser Phase ist es wichtig die Ziele und Wünsche des Kunden zu analysieren und diesen bei Unklarheiten aufzuklären und zu führen, denn eine falsche oder unklare Definition eines Ziels kann am Ende zu einem großen Problem werden, welches in der Neuentwicklung des Softwareprojekts enden könnte. Sobald die Ziele klar definiert wurden, verfasst man ein Pflichtenheft indem sich eine Aufwandsschätzung für das gesamte Projekt befindet. Durch die Definition eines Vorgehensmodells bestimmt man mit welcher Konzeption sein Modell zum Ziel geführt werden soll.
+\\ \\
+In der zweiten Phase eines Softwareprojekts befasst man sich mit der Analyse der vorgegebenen Ziele und Bedingungen des Projekts. In erster Linie geht es darum das Hauptproblem in einzelne kleine Probleme zu zerlegen und daraus dann ein Prozessmodell zu generieren. Diese Prozesse helfen dabei Probleme schrittweise zu lösen und das Projekt langsam aufzuspannen. Weiters muss man sich Gedanken darüber machen welche Systeme und Software im Projekt eingesetzt werden soll. Dies hängt davon ab um welche Programmiersprache es sich handelt, welche Modellierungswerkzeuge benutzt werden sollen, sowie welche Projektmanagementtools. Zum Abschluss der zweiten Phase beginnt man erste Mock-ups zu generieren. Darunter versteht man einen ersten Ausschnitt der Oberfläche. Dies ist besonders im frühen Stadium des Projektmanagement wichtig, denn Mock-ups sind die ersten Schnittstellen zwischen Auftraggeber und Entwickler. Sie definieren die weitere Herangehensweise an das Projekt, denn diese müssen von den Auftraggebern abgesegnet werden, weil es sich hierbei um das Interface handelt, welches die späteren Benutzer bedienen müssen.
+\\ \\
+In der dritten Phase behandelt man das Softwaredesign. Darunter versteht man die Komplexität eines Programms herauszunehmen. Durch den Einsatz verschiedenster Modelle nimmt man die Komplexität für die Entwickler aus dem Projekt. Dies führt dazu, dass man potentielle Fehlerquellen minimiert indem man gemeinsam diese Modelle ausarbeitet. Durch den Einsatz von verschiedensten Qualitätsprofilen schafft man ein breites Spektrum an Möglichkeiten und fasst diese zu einem Optimum zusammen. Die wichtigsten zu erstellenden Modelle in dieser Phase behandeln die Datenmodellierung, sowie die Softwarearchitektur und die objektorientierte Analyse. Durch die Erstellung dieser Modelle legt man den Grundstein für die Programmierung. Zum Abschluss dieser Design-Phase müssen die verschiedenen Rollen definiert werden. Jeder Mitarbeiter im Projekt muss genau wissen was seine Aufgabe ist. Diese Aufgabenbereich besteht aus dem technischen Leiter, den Softwareentwicklern, den Softwaretestern, sowie Mitarbeiter die für die Dokumentation des Projekts zuständig sind. Dokumentation ist noch ein wichtiger Stichpunkt, denn alle erzeugten Modelle müssen ausführlichst dokumentiert werden, sodass ein späteres Nachvollziehen bei der Umsetzung möglich ist und auch externe Fachkräfte in kürzester Zeit verstehen können welchen Zweck bestimmte Programmierblöcke erfüllen.
+\\ \\
+Die vierte Phase befasst sich mit der Programmierung. Nachdem wir in den letzten drei Phasen die Grundsteine, sowie die detaillierte Ausformulierung der verschiedenen Schnittstellen zwischen Entwickler und Auftraggeber, definiert haben, geht es jetzt an die Umsetzung. Bei der Umsetzung müssen jedoch bestimmte Qualitätskriterien erfüllt werden um ein Softwareprojekt erfolgreich abschließen zu können. Eines der wichtigsten Kriterien umfasst hierbei die Korrektheit des Programmcodes. Darunter versteht man die Einhaltung der in Phase drei definierten Bedingungen wie sich ein bestimmter Programmblock zu verhalten hat. Dieses Verhalten muss korrekt in das Programm umgesetzt werden um Inkonsistenzen zu vermeiden und Konsistenz zu schaffen. Ein weiterer wichtiger Punkt befasst sich mit der Robustheit des Programms. Ein Programm muss auch mit Situationen umgehen können die nicht alltäglich sind. Ein gutes Fehlermanagement erhöht die Qualität des Programms und hilft Ausnahmesituationen schneller zu verstehen. Ein Punkt der besonders hervorgehoben werden muss ist die Wartbarkeit des Programms. Es muss eine Konvention eingeführt werden die von allen Entwicklern eingehalten werden muss. Darunter versteht man die Definition von Variablennamen, die Verwendung von Kommentaren, sowie die Klassen- \& Funktionsnamen. Es sollte immer im Hinterkopf behalten werden, dass in Zukunft andere Entwickler den Code bearbeiten werden oder der Entwickler selbst sich nach längerer Zeit wieder mit dem Code befassen muss. Eine gute Dokumentation und Einhaltung der Konvention erleichtert den erneuten oder erstmaligen Einstieg in das Programm. Abschließend geht es um die Performance. Einer Software stehen nur begrenzte Ressourcen des Betriebssystems zur Verfügung. Aufgrunddessen muss man mit begrenzten Ressourcen das maximale Ergebnis herausholen. Wichtig ist hierbei gute Programmierung wie zum Beispiel der Einsatz von bestimmten Patterns zur Lösung komplexer Probleme.
+\\ \\
+In der fünften Phase kümmert man sich um das Testen des erzeugten Programmcodes aus Phase vier. Durch automatisierte Tests werden einzelne Module gegen deren Dokumentation getestet. Damit testet man das Einhalten der Ziele, welche in der Dokumentation vermerkt wurden. Sobald alle einzelnen Module für erfolgreich befunden wurden, geht es darum diese in Kombination zu testen. Im Integrationstest testen man die Kombination der einzelnen Module um das modulübergreifende Fehler ausschließen zu können. Anschließend folgt ein Systemtest. Bei diesem Test wird das spätere Einsatzsystem simuliert und mit realen Testdaten gefüllt. Dies ist der letzte Test bevor man zum Akzeptanztest schreitet. 
+\\ \\
+In der letzten Phase muss der Akzeptanztest durchgeführt werden. Dieser wird am Endsystem und unter Anwesenheit des Auftraggebers durchgeführt. Nach erfolgreichem Abschluss schreitet man zur Softwareeinführung vor. Diese beinhaltet die in der Anforderungsanalyse definierten Aufgabenbereiche zur Inbetriebnahme der Software. In den letzten Jahren ist es üblich geworden, dass Unternehmen einen gewissen Wartungsvertrag von den Softwareherstellern verlangen. Dies dient zur Absicherung des Auftraggebers, denn falls Fehler im laufenden System passieren, verpflichtet sich der Hersteller diese in einem gewissen Zeitrahmen auszubessern. 
+\\ \\
+Über diesen sechs Phasen stehen Aufgaben die im Softwareengineering zu jeder Zeit funktionieren müssen. Hierzu zählt das Qualitätsmanagement, welches einen Überblick über die Einhaltung der Ziele hat und mit statistischen Analysen versucht festzustellen, ob der Zeitplan eingehalten werden kann. Das Projektmanagement wiederrum hat nachfolgend die Aufgabe aus den Ergebnissen des Qualitätsmanagements Schlüsse zu ziehen. Sie sind für die Projektsteuerung, sowie für das Risikomanagament zuständig. Es müssen Notfallpläne definiert werden, sowie alle möglichen Fehlerquellen aufgeschlüsselt und mit Lösungsvorschlägen abgesichert werden. Außerdem muss sich dieses um die weitere Projektplanung kümmern, denn man wird laufend auf unerwartete Fehler treffen, die in möglichst kurzer Zeit gelöst werden müssen. Abschließend muss alles Dokumentiert werden. Jeder Schritt im Projekt muss festgehalten werden, damit zum Beispiel beim Ausfall eines Mitarbeiters es schnell möglich ist diesen zu ersetzen bzw. andere Mitarbeiter sich schnell in dessen Arbeit einlesen können.
+\\ \\
+Zusammenfassend befasst sich Softwareengineering mit der Thematik der qualitativen und effizienten Durchführung eines Softwareprojekts und umfasst dabei verschiedenste Vorgehensweisen und Modelle zum Erreichen dieses Ziels. Eine gute Organisation und Dokumentation ist ausschlaggebend für eine gute strukturelle Arbeit.
 
-\section{Typographic Design}
 
-For working with LaTeX you can take advantage of a variety of books and free introductions and tutorials on the internet. A competent contact point for LaTeX beginners is the LaTeX Wikibook, which is available under \url{http://en.wikibooks.org/wiki/LaTeX}. 
+\section{Software Inspektion}
 
-The following sections give examples of the most important LaTeX environments and commands.
+\section{Papers}
+\subsection{Review Lesetechniken}
+
+% TODO: BIBTEX Verlinkung & Grafiken verlinken
+\subsection{Using a Reliability Growth Model to Control Software Inspection}
+
+Projektmanager müssen nach einer Softwareinspektion eine schwierige Entscheidung treffen. Man muss definieren, ab welchen Parametern ein Projekt in die nächste Phase eintauchen kann. In diesem Fall ist es nötig festzustellen wie viele Fehler im Projekt aufgetaucht sind und ob es überhaupt einen Sinn macht das gesamte Projekt zu überarbeiten um damit die Fehlerquote zu verringern. Um dies feststellbar zu machen stellt Stefan Biffl in seinem Artikel “Using a Reliability Growth Model to Control Software Inspection” drei Modelle vor die einem bei dieser Entscheidung unterstützen sollen. Eines dieser Modelle behandelt ein Wachstumsmodell, welches versucht anhand der Anzahl an Überarbeitungen festzustellen, wie viel Prozent zusätzlich in den nächsten Schritten ausgebessert werden könnten. Die anderen beiden Modelle basieren auf statistischen Erhebungen und zeigen ebenfalls eine Art Skala auf, wie viele Fehler nach einer gewissen Anzahl an Überarbeitungen noch gefunden werden könnten.
+\\ \\
+In dem hier beschriebenen Artikel von Stefan Biffl wird die Fehlerfindungsrate so definiert, dass es sich hierbei um den Proportion von den gefundenen Fehlern während einer Inspektion zu der geschätzten Gesamtanzahl an Fehlern im Projekt. Wie hoch diese Fehlerfindungsrate ist hängt von mehreren Faktoren ab. Dazu gehören der eigentliche Findungsprozess, das involvierte Team, sowie die investierte Zeit des Teams in die Fehlerfindung selbst.
+\\ \\
+Wachstumsmodelle sollen verlässliche Zahlen dafür liefern was nach einer bestimmten Tätigkeit für ein Ziel erreicht wurde. In diesem Artikel erstellt Stefan Biffl ein Wachstumsmodell, welches den Projektmanagern bei der Entscheidung über das Eintreten in den nächsten Prozess helfen soll. Wenn zum Beispiel eine Analyse aufzeigt, dass es noch viele Fehler im Projekt gibt, jedoch eine weitere Inspektion des Projekts nicht genügend zusätzliche Fehler aufdeckt, dann kann der Projektmanager trotzdem einen Schritt weiter gehen. Dadurch würden Ressourcen und Zeit gespart werden, welche effektiver ins Projekt gesteckt werden können.
+\\ \\
+Um also nun so ein Modell aufstellen zu können muss man nach einer Inspektion die Ergebnisse analysieren. Um effektivere und sicherere Ergebnisse zu erreichen ist es sinnvoll mehrere und verschiedene qualifizierte Inspektoren zu benützen. Dadurch erreicht man ein breiteres Spektrum an Fehlern und kann die maximale Fehleranzahl besser feststellen. Nach dieser Analysierungsphase muss vom Projektmanager festgelegt werden, welche Art von Methode eingesetzt werden soll, wenn es zu einem zweiten Inspektionszyklus kommen sollte. In diesem Artikel verwenden wir zur Vereinfachung die selbe Inspektionsmethode wie in Zyklus eins.
+\\ \\
+Eine erste Intuition über die Funktionsweise des Wachstumsmodells führt uns dazu, dass am Anfang der Inspektionsphase eine große Anzahl an Fehlern auftauchen wird. Je länger die Inspektionen und Zyklen dauern, desto weniger Fehler wird es geben.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{images/3_2_1.png}
+	\caption{Jelinski-Moranda Modell}
+	\label{fig:3_2_1_png}
+\end{figure}
+
+Hier wird das Jelinksi-Moranda Model vorgestellt. Es zeigt auf, dass mit längerer vergangener Zeit mehr Fehler gefunden werden. Dieses Modell zeigt auf, wieviele Fehler man mit einem bestimmten eingesetzten Modell voraussichtlich finden wird. Eine sehr wichtige Komponente in diesem Modell behandelt das Speichern der Anzahl der Fehler pro Inspektor und in welcher Zeit. Mit diesen Werten ist es möglich das bestehende Modell zu erweitern. Dadurch ergibt sich die Möglichkeit festzustellen wie groß das Fehlerfindungsspektrum eines Inspektors ist. Wenn es zu mehreren Überlappungen der gefundenen Fehler pro Inspektor kommt, dann wird es nur möglich sein einen zentralen Fehleranteil festzustellen. Wenn wir aber zusätzlich Inspektoren einsetzen die auch etwas außerhalb des Zentrums Fehler finden, dann können wir dafür sorgen, dass die Fehlerfindungsrate gesteigert werden kann. Durch die Erstellung von Teams bestehend aus zentralen Inspektoren und Inspektoren die mehr Fehler in den Details finden erhöht man die Fehlerfindungsrate immens.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{images/3_2_2.png}
+	\caption{Beurteilung 1.Analysezyklus}
+	\label{fig:3_2_2_png}
+\end{figure}
+
+Um nun den ersten Analysezyklus beurteilen zu können, stellen wir folgenden Schlüssel auf. Wir müssen eine Neuinspektion durchführen, wenn die Fehlerfindungsrate nach dem 1.Zyklus unter 70\% ist und die Chance mit einem 2.Zyklus die 70\% zu übersteigen gegeben ist. Die zweite Möglichkeit wäre die Teams die über 50\% erreicht haben mit Teams die unter 50\% erreicht haben zu vermischen um dadurch eine höhere Fehlerfindungsrate zu erzeugen.
+\\ \\
+Nachdem wir ein akzeptables Ergebnis mit dieser Wachstumsmethode erreichen konnten, zeigen wir mit zwei heuristischen linearen Modellen, dass dieses Ergebnis unterstrichen werden kann. Wer kombinieren ein optimistisches Modell und ein pessimistisches Modell um die Fehlerfindungsrate über 70\% bringen zu können. 
+\\ \\
+Hierzu wurde ein Experiment an über 200 Studenten durchgeführt die ein mittelgroßes Projekt planen sollten. Die Studenten hatten jedoch kein gleich hohes Level über die Entwicklung von Projekten, sondern waren vom Standpunkt her durchgemischt. Die Studenten sollten alle möglichen Fehler finden, die im Projekt auftreten könnten.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{images/3_2_3.png}
+	\caption{Einordnung der gefundenen Fehler}
+	\label{fig:3_2_2_png}
+\end{figure}
+
+Zur Analyse wurden 29 Teams von Inspektoren eingesetzt zur Aufdeckung der Fehler. Nach einem 1.Analysezyklus konnten 52,5\% (Abweichung von 12,2\%) aller Fehler entdeckt werden. Nach einem 2.Analysezyklus konnten 70,1\% (Abweichung von 11,6\%) aller Fehler entdeckt werden. Durch Gegenüberstellung der Ergebnisse aus dem 1.Zyklus mit den Ergebnissen aus dem 2.Zyklus und der Darstellung in den oben gezeigten Wachstumsmodell, orientieren sich die Ergebnisse großteils im Erfolgsbereich.
+\\ \\
+Damit man nun die Effektivität besser aufzeigen kann, erstellen wir drei lineare Modelle aus unserem Wachstumsmodell, sowie aus den Beziehungen der Ergebnisse vom 1.Zyklus mit dem 2.Zyklus bezüglich der Effektivität und der Anzahl gefundener Fehler und abstrahieren das in ein Modell, welches die Fehlerfindungsrate nach zwei Zyklen mit der maximalen Anzahl an Fehlern gegenüberstellt und erkennen, dass die Fehlerfindungsrate nach zwei Zyklen sich sich zu einem großen Prozentsatz in einem Bereich zwischen 65 und 80 Prozent befinden. Mit diesen Ergebnissen im Hintergrund kann ein Projektmanager ohne zu zögern in die nächste Phase eintauchen.
+
+
+\subsection{Integrating Collaborative Processes}
+
+\subsection{A Family of Experiments to investigate the effects of groupware}
+
+\section{Zusammenfassung}
+
+% VORLAGEN FÜR DINGE 
+% #####################################################################################
+
+\section{Vorlagen}
 
 \subsection{Tables}
-
 Tables have to be realized with the help of the \textit{table} environment. Tables shall be sequentially numbered for each chapter and described in terms of a short caption (cf. Table~\ref{tab:diplomaseminar}).
 
 \begin{table}[htb]
