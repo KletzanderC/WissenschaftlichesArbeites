@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{misc:BIGWebsite}
 {\sc {Business Informatics Group}}.
@@ -39,6 +39,20 @@
 \newblock {Modeling Web Applications}.
 \newblock In {\em {Web Engineering}}, G.~Kappel, B.~Pr\"{o}ll, S.~Reich, and
   W.~Retschitzegger, Eds. John Wiley \& Sons, Ltd, 2006, pp.~39--64.
+
+\bibitem{book:SEChapter10}
+{\sc Selby, R.}
+\newblock {\em {Software Engineering, Lifetime Contributions to Software
+  Developement, Chapter 10 - Being a Software Engineer in the Software
+  Century}}, 1.~ed.
+\newblock IEEE Computer Society, 2007 (in New Jersey).
+
+\bibitem{book:SEChapter8}
+{\sc Selby, R.}
+\newblock {\em {Software Engineering, Lifetime Contributions to Software
+  Developement, Chapter 8 - Software Engineering State of the Art and
+  Practice}}, 1.~ed.
+\newblock IEEE Computer Society, 2007 (in New Jersey).
 
 \bibitem{phdthesis:manuelWimmer}
 {\sc Wimmer, M.}
