@@ -1,0 +1,10 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Einf\IeC {\"u}hrung in Software Engineering}{4}
+\contentsline {section}{\numberline {2}Software Inspection (2 1/2 Seiten)}{4}
+\contentsline {section}{\numberline {3}Ausgew\IeC {\"a}hlte Beitr\IeC {\"a}ge}{5}
+\contentsline {subsection}{\numberline {3.1}Beitrag Eins (2 1/2 Seiten)}{5}
+\contentsline {subsection}{\numberline {3.2}Beitrag Zwei (2 1/2 Seiten)}{5}
+\contentsline {subsection}{\numberline {3.3}Beitrag Drei (2 1/2 Seiten)}{5}
+\contentsline {subsection}{\numberline {3.4}Beitrag Vier (2 1/2 Seiten)}{5}
+\contentsline {section}{\numberline {4}Zusammenfassung (ca. 1/2 Seite)}{5}
+\contentsline {section}{\numberline {5}Literaturverzeichnis (ca. 1/2 - 1 Seite)}{5}
