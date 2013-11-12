@@ -1,3 +1,14 @@
+### CUSTOM
+*.cls
+*.sty
+*.aux
+*.bbl
+*.blg
+*.log
+*.pdf
+*.toc
+*.bst
+
 #################
 ## Eclipse
 #################
